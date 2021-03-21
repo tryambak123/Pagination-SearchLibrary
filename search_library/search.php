@@ -91,7 +91,9 @@ class searching
         {
             echo "string";
         }
-
+		
+		//echo '<pre>';print_r($data);
+		//echo '<pre>';print_r($query_data);die;
         foreach ($query_data as $key => $value_q)
         {   
             if(!empty($data['string']))
